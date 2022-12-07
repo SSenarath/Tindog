@@ -92,7 +92,15 @@ button {
     border: none;
     padding-top: 5px;
     padding-left: 5px;
+}
 
+#dislike-btn:hover,
+#dislike-btn:focus {
+    background-color:#FFE7EF
 
+}
 
+#like-btn:hover,
+#like-btn:focus {
+    background-color: #DBFFF4;
 }
