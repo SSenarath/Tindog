@@ -36,13 +36,17 @@ section {
 }
 
 
-.badge {
+#badge {
     position: absolute;
-    width: 235px;
-    height: 115px;
+
     top: 50px;
     left: 20px;
     transform: rotate(-30deg)
+}
+
+#badge img {
+    width: 235px;
+    height: 115px;
 }
 
 #bio {
