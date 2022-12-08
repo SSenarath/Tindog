@@ -11,20 +11,24 @@ body {
 
 .container {
     margin: auto;
-    max-width: 550px;
+    width: 550px;
     background-color: #FFFFFF;
 
 }
 
 .header {
     /* border: 2px solid black; */
-    height: 81px;
+    max-height: 81px;
     display: flex;
     flex-shrink: 1;
     padding: 20px;
     box-sizing: border-box;
     justify-content: space-between;
 
+}
+
+.header-icons {
+    max-height: 42px
 }
 
 section {
@@ -45,8 +49,8 @@ section {
 }
 
 #badge img {
-    max-width: 235px;
-    max-height: 115px;
+    width: 235px;
+    height: 115px;
 }
 
 #bio {
@@ -69,13 +73,13 @@ section {
 
 
 .dog-pictures {
-    max-width: 535px;
+    width: 535px;
     height: 750px;
     border-radius: 15px;
 }
 
 #end {
-    max-width: 535px;
+    width: 535px;
     height: 750px;
     border-radius: 15px;
     border: 2px solid rgb(158, 118, 158);
