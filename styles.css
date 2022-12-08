@@ -11,7 +11,7 @@ body {
 
 .container {
     margin: auto;
-    width: 550px;
+    max-width: 550px;
     background-color: #FFFFFF;
 
 }
@@ -45,8 +45,8 @@ section {
 }
 
 #badge img {
-    width: 235px;
-    height: 115px;
+    max-width: 235px;
+    max-height: 115px;
 }
 
 #bio {
@@ -69,13 +69,13 @@ section {
 
 
 .dog-pictures {
-    width: 535px;
+    max-width: 535px;
     height: 750px;
     border-radius: 15px;
 }
 
 #end {
-    width: 535px;
+    max-width: 535px;
     height: 750px;
     border-radius: 15px;
     border: 2px solid rgb(158, 118, 158);
