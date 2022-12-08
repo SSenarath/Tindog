@@ -1,7 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding-top: 25px;
     background-color: rgb(158, 118, 158);
     font-weight: 400;
     font-size: 24px;
@@ -72,6 +71,17 @@ section {
     width: 535px;
     height: 750px;
     border-radius: 15px;
+}
+
+#end {
+    width: 535px;
+    height: 750px;
+    border-radius: 15px;
+    border: 2px solid rgb(158, 118, 158);
+    margin: auto;
+    padding-top: 300px;
+    box-sizing: border-box;
+    color: black
 }
 
 

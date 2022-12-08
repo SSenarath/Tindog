@@ -10,22 +10,14 @@ class Dog {
     <p id = "bio"><span class ="bold">${name}, ${age}</span><br>${bio}</p>`
     }
 
-    // getCharacterHtml() {
-    //     const { name, avatar, health, diceArray} = this
-    //     const healthBar = this.getHealthBarHtml()
-        
+    setDogHasBeenSwiped(){
+        this.hasBeenSwiped = true
+    }
 
-    //     return `<div class="character-card">
-    //         <h4 class="name"> ${name} </h4>
-    //         <img class="avatar" src="${avatar}" />
-    //         <div class="health">health: <b> ${health} </b></div>
-    //         ${healthBar}
-    //         <div class="dice-container">    
-    //             ${diceArray}
-    //         </div>
-    //     </div>`
+    setDogHasBeenLiked(){
+        this.hasBeenLiked = true
+    }
 
-    // }
 }
 
 export default Dog
