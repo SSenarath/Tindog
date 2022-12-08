@@ -16,10 +16,11 @@ body {
 
 }
 
-header {
+.header {
     /* border: 2px solid black; */
     height: 81px;
     display: flex;
+    flex-shrink: 1;
     padding: 20px;
     box-sizing: border-box;
     justify-content: space-between;
